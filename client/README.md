@@ -4,20 +4,20 @@ Modern, responsive React frontend for the AI Tutor RAG application.
 
 ## 📖 Project Overview
 
-The frontend provides an intuitive interface for users to upload PDFs and interact with an AI assistant. Built with React and TypeScript, it features a clean, ChatGPT-like UI with real-time messaging and image display capabilities.
+The frontend provides an intuitive interface for users to upload PDFs and interact with an AI assistant. Built with React and TypeScript, it features a clean, ChatGPT-like UI with messaging and image display capabilities.
 
 ## ✨ Features
 
 ### Core Features
 - 📤 **Drag & Drop Upload**: Easy PDF file upload with visual feedback
-- 💬 **Chat Interface**: Real-time conversation with AI assistant
+- 💬 **Chat Interface**: Conversation with AI assistant
 - 🖼️ **Inline Images**: Display relevant diagrams with answers
 - ⚡ **Loading States**: Smooth transitions and loading indicators
 - 📱 **Responsive Design**: Works seamlessly on all devices
 - 🎨 **Modern UI**: Clean, minimalistic design with Tailwind CSS
 
 ### Pages
-- **Upload Page** (`/`): PDF upload interface
+- **Upload Page** (`/upload`): PDF upload interface
 - **Chat UI** (`/chat/:id`): Interactive Q&A interface
 
 ### UI Components
@@ -132,7 +132,7 @@ Body: {
 
 #### 3. Get Image
 ```typescript
-GET http://localhost:5000/api/images/:topicId/:filename
+GET http://localhost:5000/api/images/:topicId
 ```
 
 ### Error Handling
@@ -185,7 +185,7 @@ try {
 ### Chat Interface
 ![Chat UI](public/chatInterface.png)
 - Message bubbles
-- Inline images
+- Images
 - Smooth scrolling
 - Input area
 
@@ -211,7 +211,6 @@ VITE_API_URL=https://your-backend-url.com
 ```tsx
 // Main chat interface
 - Message management
-- Real-time updates
 - Image display
 - Auto-scroll
 - Keyboard shortcuts (Enter to send)
