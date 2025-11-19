@@ -101,7 +101,7 @@ Body: FormData with 'file' field
 ```json
 {
   "success": true,
-  "topicId": "uuid-string",
+  "topicId": "id",
   "filename": "document.pdf",
   "imagesExtracted": 5
 }
@@ -114,7 +114,7 @@ Content-Type: application/json
 
 Body: {
   "question": "What is sound?",
-  "topicId": "uuid-string"
+  "topicId": "id"
 }
 ```
 
@@ -126,7 +126,7 @@ Body: {
   "image": {
     "url": "http://localhost:5000/api/images/uuid/img_001.png"
   },
-  "topicId": "uuid-string"
+  "topicId": "id"
 }
 ```
 
@@ -183,7 +183,7 @@ try {
 - File name preview
 
 ### Chat Interface
-![Chat UI](public/chatInteface.png)
+![Chat UI](public/chatInterface.png)
 - Message bubbles
 - Inline images
 - Smooth scrolling
