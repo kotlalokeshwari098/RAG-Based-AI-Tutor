@@ -177,55 +177,24 @@ try {
 ## 📸 Screenshots
 
 ### Upload Page
-![Upload Interface](screenshots/upload.png)
+![Upload Interface](public/uploadInterface.png)
 - Clean upload zone
 - Loading spinner during processing
 - File name preview
 
 ### Chat Interface
-![Chat UI](screenshots/chat.png)
+![Chat UI](public/chatInteface.png)
 - Message bubbles
 - Inline images
 - Smooth scrolling
 - Input area
 
-## 🚢 Deployment
 
-### Vercel Deployment
-
-1. **Connect Repository**
-```bash
-vercel
-```
-
-2. **Configure Build Settings**
-- Build Command: `npm run build`
-- Output Directory: `dist`
-- Install Command: `npm install`
-
-3. **Set Environment Variables**
+**Set Environment Variables**
 ```
 VITE_API_URL=https://your-backend-url.com
 ```
 
-4. **Deploy**
-```bash
-vercel --prod
-```
-
-### Netlify Deployment
-
-1. **Build Configuration**
-```toml
-[build]
-  command = "npm run build"
-  publish = "dist"
-```
-
-2. **Deploy**
-```bash
-netlify deploy --prod
-```
 
 ## 🔍 Key Components
 
@@ -247,43 +216,3 @@ netlify deploy --prod
 - Auto-scroll
 - Keyboard shortcuts (Enter to send)
 ```
-
-## 🐛 Common Issues
-
-### CORS Errors
-**Solution:** Ensure backend has CORS enabled:
-```javascript
-app.use(cors())
-```
-
-### Image Not Loading
-**Solution:** Check image URL format and backend image serving endpoint
-
-### Build Errors
-**Solution:** Clear cache and reinstall:
-```bash
-rm -rf node_modules package-lock.json
-npm install
-```
-
-## 📝 Development Notes
-
-### Code Style
-- TypeScript strict mode
-- Functional components with hooks
-- Async/await for API calls
-- Interface definitions for type safety
-
-### Best Practices
-- Error boundaries for error handling
-- Loading states for better UX
-- Responsive design
-- Accessibility considerations
-
-## 👥 Contributors
-
-- Your Name - Frontend Developer
-
-## 📄 License
-
-MIT
