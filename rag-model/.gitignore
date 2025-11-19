@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+*.egg-info/
+*.egg
+*.log
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python packages
+*.dist-info/
+*.egg-info/
+
+# Chroma / vectorstore / cache
+vectorstore/
+images/vectorstore_images/
+*.db
+*.sqlite
+
+# Uploaded PDFs (if you don’t want them in Git)
+uploads/
+
+# PyTorch / model weights
+*.pt
+*.bin
+*.safetensors
+
+# Environment variables
+.env
+.env.*        
+

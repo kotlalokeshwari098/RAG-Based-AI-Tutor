@@ -1,0 +1,45 @@
+[
+ {
+    "id": "sound_img_001",
+    "filename": "./images/SchoolBellVibration.png",
+    "title": "Bell Vibration",
+    "keywords": ["bell", "vibration", "sound"],
+    "description": "Bell vibration diagram showing how sound is produced by a vibrating bell"
+  },
+  {
+    "id": "sound_img_002",
+    "filename": "./images/VibrationOfRubberBand.png",
+    "title": "Sound Wave",
+    "keywords": ["wave", "sound", "longitudinal"],
+    "description": "Diagram of a longitudinal sound wave with compressions and rarefactions"
+  },
+  {
+    "id": "sound_img_003",
+    "filename": "./images/CompressionAndRefraction.png",
+    "title": "Direction of wave propagation",
+    "keywords": ["propagation", "amplitude", "sound","compression","rarefaction"],
+    "description": "Diagram showing direction of wave propagation, amplitude, compression, and rarefaction in sound waves"
+
+  },
+  {
+    "id": "sound_img_004",
+    "filename": "./images/MusicalInstrumentsVibrationChart.png",
+    "title": "Sound Waves in Different Mediums",
+    "keywords": ["vibrating string", "medium","air","vibrating air","vibrating membrane","vibrating chart"],
+    "description": "Chart showing sound waves in different mediums like vibrating strings, membranes, and air"
+  },
+  {
+    "id": "sound_img_005",
+    "filename": "./images/VocalCordsDiagram.png",
+    "title": "Vocal Cords Diagram",
+    "keywords": ["vocal cords", "voice", "sound production","vibrating air"],
+    "description": "Diagram showing the anatomy of vocal cords and how they produce sound"
+  },
+  {
+    "id": "sound_img_006",
+    "filename": "./images/ReflectionOfSound.png",
+    "title": "Reflection of Sound",
+    "keywords": ["reflection", "sound", "echo","carboard","stop watch"],
+    "description": "Diagram illustrating the reflection of sound waves and the formation of echoes"
+  }
+]
