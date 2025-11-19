@@ -85,8 +85,8 @@ Question → Retrieve relevant chunks → Pass to LLM → Generate answer
 
 ```
 rag-model/
-├── rag-model.py           # Main RAG pipeline
-├── rag_api.py             # API wrapper for backend
+├── rag_model.py           # Main RAG pipeline
+├── app.py                 # Main 
 ├── images/      
 │    ├── images/              
 │    └── imageEmbeddings.py  
