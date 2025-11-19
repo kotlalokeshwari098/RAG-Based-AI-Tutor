@@ -53,7 +53,7 @@ const ChatUI = () => {
         question: input,
         topicId: id
       })
-      // console.log("API Response:", response.data)
+      // console.log("API Response:", response.data
 
       const botMessage: Message = {
         id: (Date.now() + 1).toString(),
@@ -188,8 +188,8 @@ const ChatUI = () => {
       {/* Input Area */}
       <div className="bg-white border-t border-gray-200 px-4 py-4 shadow-lg">
         <div className="max-w-4xl mx-auto">
-          <div className="flex items-end gap-3">
-            <div className="flex-1 relative">
+          <div className="flex gap-2">
+            <div className="flex-1 relative ">
               <textarea
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
@@ -204,7 +204,7 @@ const ChatUI = () => {
             <button
               onClick={handleSend}
               disabled={!input.trim() || isLoading}
-              className="p-3 rounded-xl bg-indigo-500 hover:bg-indigo-600 text-white shadow-md transition-all duration-200 disabled:bg-gray-300 disabled:cursor-not-allowed flex items-center justify-center"
+              className="px-3 py-2 rounded-xl bg-indigo-500 hover:bg-indigo-600 text-white shadow-md transition-all duration-200 disabled:bg-gray-300 disabled:cursor-not-allowed flex items-center justify-center"
             >
               <svg
                 className="w-5 h-5"

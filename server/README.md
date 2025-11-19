@@ -9,10 +9,7 @@ The backend serves as the bridge between the frontend and the RAG model, handlin
 ## ✨ API Features
 
 - 📤 **File Upload**: Accept and store PDF files
-- 🖼️ **Image Extraction**: Extract images from PDFs using Python
-- 💾 **Metadata Storage**: Generate and store image metadata
 - 🤖 **RAG Integration**: Interface with Python RAG model
-- 🔍 **Smart Image Retrieval**: Match images to query keywords
 - 📂 **File Serving**: Serve extracted images
 
 ## 🛠️ Tech Stack
